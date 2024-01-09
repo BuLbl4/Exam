@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eai9swnaAOvhaEVm7e1PahkftAM8v7wRb/C5iofwlktqfQ9b/2Bf3kOSh5f5m57e3L9a00m+RJNGaYkqJukixA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Булат\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

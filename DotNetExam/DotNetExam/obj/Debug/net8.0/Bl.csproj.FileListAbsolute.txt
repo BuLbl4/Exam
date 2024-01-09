@@ -1,0 +1,9 @@
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.RazorAssemblyInfo.cache
+C:\Users\Булат\RiderProjects\DotNetExam\Bl\obj\Debug\net8.0\Bl.RazorAssemblyInfo.cs
