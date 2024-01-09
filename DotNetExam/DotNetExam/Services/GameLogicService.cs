@@ -1,8 +1,7 @@
 using DotNetExam.Models;
-using DotNetExam.Services;
 using GameLibrary;
 
-namespace Bl.Services;
+namespace DotNetExam.Services;
 
 public class GameLogicService : IGameLogicService
 {
@@ -20,11 +19,9 @@ public class GameLogicService : IGameLogicService
             };
 
             round.Rounds.Add(new FightResult { Message = $"Раунд {round.Id}", IsRoundEnd = false });
-            Console.WriteLine($"Раунд {round.Id}");
             for (int i = 0; i < player.AttackPerRound; i++)
             {
                 var attackRoll = RollAttack();
-                Console.WriteLine($"вы выбили {attackRoll}");
                 if (attackRoll == 20)
                 {
                     var damage = RollDamage(player.DamageModifier, player.Damage) * 2;

@@ -29,8 +29,6 @@ C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetE
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.csproj.CoreCompileInputs.cache
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.RazorAssemblyInfo.cache
-C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.RazorAssemblyInfo.cs
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets\msbuild.DotNetExam.Microsoft.AspNetCore.StaticWebAssets.props
@@ -38,9 +36,7 @@ C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticw
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNetExam.props
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNetExam.props
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\scopedcss\bundle\DotNetExam.styles.css
-C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\scopedcss\projectbundle\DotNetExam.bundle.scp.css
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.csproj.CopyComplete
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\DotNetExam.dll
 C:\Users\Булат\RiderProjects\DotNetExam\DotNetExam\obj\Debug\net8.0\refint\DotNetExam.dll

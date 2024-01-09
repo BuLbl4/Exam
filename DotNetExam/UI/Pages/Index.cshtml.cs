@@ -33,12 +33,6 @@ public class IndexModel : PageModel
         var list = JsonConvert.DeserializeObject<List<Round>>(responseContent);
         
         FightLog = list!;
-        foreach (var item in list!)
-        {
-            foreach (var itemRound in item.Rounds!)
-            {
-                Console.WriteLine(itemRound.Message);
-            }
-        }
+     
     }
 }

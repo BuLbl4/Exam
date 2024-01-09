@@ -4,7 +4,7 @@ public class Dice
 {
     public static Dice DiceTwenty => new Dice(20);
 
-    public int NumberOfSides { get; set; }
+    private int NumberOfSides { get; set; }
 
     public Dice(int count)
     {
