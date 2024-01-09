@@ -43,12 +43,12 @@ public class AppDBContext : DbContext
         {
             Id = 3,
             Name = "Skeleton",
-            HitPoints = 40, //хит поинты
-            AttackModifier = 6, //модификатор атаки
-            AttackPerRound = 1, //атак за раунд
-            Damage = "1d6", //урон
-            DamageModifier = 8, //модификатор урона
-            Ac = 13 //класс брони
+            HitPoints = 40,
+            AttackModifier = 6, 
+            AttackPerRound = 1, 
+            Damage = "1d6", 
+            DamageModifier = 8, 
+            Ac = 13 
         };
         modelBuilder.Entity<Monster>().HasData(lizardfolk, goblin, skeleton);
         base.OnModelCreating(modelBuilder);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DmQd/QdJWoAlod569oqDac7WFYK0h9/ZEW9ZdrKnIqY=",
+  "Hash": "a+DO6q5gVX3RQXTGKbqZAseDJGlf/2mp15w6Kco0/bU=",
   "Source": "DotNetExam",
   "BasePath": "_content/DotNetExam",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNetExam.styles.css",
-      "SourceId": "DotNetExam",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/DotNetExam",
-      "RelativePath": "DotNetExam.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNetExam.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNetExam.bundle.scp.css",
-      "SourceId": "DotNetExam",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/DotNetExam",
-      "RelativePath": "DotNetExam.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNetExam.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\Булат\\RiderProjects\\DotNetExam\\DotNetExam\\wwwroot\\css\\site.css",
       "SourceId": "DotNetExam",
