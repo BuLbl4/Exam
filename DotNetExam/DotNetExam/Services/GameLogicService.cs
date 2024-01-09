@@ -27,7 +27,6 @@ public class GameLogicService : IGameLogicService
                 Console.WriteLine($"вы выбили {attackRoll}");
                 if (attackRoll == 20)
                 {
-                    // Критическое попадание
                     var damage = RollDamage(player.DamageModifier, player.Damage) * 2;
                     enemy.HitPoints -= damage;
                     round.Rounds.Add(new FightResult { Message = $"Вы нанесли Критическое попадание!" +
@@ -37,12 +36,10 @@ public class GameLogicService : IGameLogicService
                 }
                 else if (attackRoll == 1)
                 {
-                    // Критический промах
                     round.Rounds.Add(new FightResult { Message = "Вы Критически промахнулись!", IsRoundEnd = false });
                 }
                 else if (attackRoll + player.AttackModifier > enemy.Ac)
                 {
-                    // Обычное попадание
                     var damage = RollDamage(player.DamageModifier, player.Damage);
                     enemy.HitPoints -= damage;
                     round.Rounds.Add(new FightResult { Message = $"({player.AttackModifier} + {attackRoll}) больше {enemy.Ac}, " + 
@@ -52,7 +49,6 @@ public class GameLogicService : IGameLogicService
                 }
                 else
                 {
-                    // Промах
                     round.Rounds.Add(new FightResult { Message = "Вы промахнулись!", IsRoundEnd = false });
                 }
             }
@@ -66,7 +62,6 @@ public class GameLogicService : IGameLogicService
 
                     if (enemyAttackRoll == 20)
                     {
-                        // Критическое попадание противника
                         var damage = RollDamage(enemy.DamageModifier, enemy.Damage) * 2;
                         player.HitPoints -= damage;
                         round.Rounds.Add(new FightResult { Message = $"Противник наносит критический урон! Получено урона:" +
@@ -76,12 +71,10 @@ public class GameLogicService : IGameLogicService
                     }
                     else if (enemyAttackRoll == 1)
                     {
-                        // Критический промах противника
                         round.Rounds.Add(new FightResult { Message = "Противник критически промахивается!", IsRoundEnd = false });
                     }
                     else if (enemyAttackRoll + enemy.AttackModifier > player.Ac)
                     {
-                        // Обычное попадание противника
                         var damage = RollDamage(enemy.DamageModifier, enemy.Damage);
                         player.HitPoints -= damage;
                         round.Rounds.Add(new FightResult { Message = $"({enemy.AttackModifier} + {enemyAttackRoll})" +
@@ -90,7 +83,6 @@ public class GameLogicService : IGameLogicService
                     }
                     else
                     {
-                        // Промах противника
                         round.Rounds.Add(new FightResult { Message = "Противник промахивается!", IsRoundEnd = false });
                     }
                 }
@@ -101,7 +93,6 @@ public class GameLogicService : IGameLogicService
 
             if (player.HitPoints <= 0 || enemy.HitPoints <= 0)
             {
-                // Победа или поражение, добавим финальное сообщение
                 round.Rounds.Add(new FightResult { Message = player.HitPoints <= 0 ? "Вы проиграли. Ваш персонаж мертв." : "Вы победили! Противник повержен.", IsRoundEnd = true });
             }
         }
